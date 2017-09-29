@@ -1,54 +1,37 @@
 #!/bin/bash
-# Havuç dilim by github.com/BTaskaya 
-makeustBaklava()
-{
-  n=$1;
-
-  for((i=1;i<=n;i++))
+n=10
+for((i=1;i<=n;i++))
   do
-
       for((k=i;k<=n;k++))
       do
         echo -ne " ";
       done
-
       for((j=1;j<=i;j++))
       do
       echo -ne "*";
       done
-
       for((z=1;z<i;z++))
       do
       echo -ne "*";
       done
- 
       echo;
   done
-}
-makealtBaklava()
-{
-n=$1;
 for((i = $n; -1 < i; i--))
 do
-	  for((k=i;k<=n;k++))
-      do
-        echo -ne " ";
-      done
+	for((k=i;k<=n;k++))
+	do
+		echo -ne " ";
+	done
 
-      for((j=1;j<=i;j++))
-      do
-      echo -ne "*";
-      done
+	for((j=1;j<=i;j++))
+	do
+		echo -ne "*";
+	done
 
-      for((z=1;z<i;z++))
-      do
-      echo -ne "*";
-      done
+	for((z=1;z<i;z++))     
+	do
+		echo -ne "*";
+    done
       
       echo;
 done
-}
-# Baklava Üstü
-makeustBaklava $1
-# Baklava Altı
-makealtBaklava $1

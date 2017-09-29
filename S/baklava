@@ -1,0 +1,51 @@
+#!/bin/bash
+makeustBaklava()
+{
+  n=$1;
+
+  for((i=1;i<=n;i++))
+  do
+
+      for((k=i;k<=n;k++))
+      do
+        echo -ne " ";
+      done
+
+      for((j=1;j<=i;j++))
+      do
+      echo -ne "*";
+      done
+
+      for((z=1;z<i;z++))
+      do
+      echo -ne "*";
+      done
+      
+      echo;
+  done
+}
+makealtBaklava()
+{
+n=$1;
+for((i = $n; -1 < i; i--))
+do
+	  for((k=i;k<=n;k++))
+      do
+        echo -ne " ";
+      done
+
+      for((j=1;j<=i;j++))
+      do
+      echo -ne "*";
+      done
+
+      for((z=1;z<i;z++))
+      do
+      echo -ne "*";
+      done
+      
+      echo;
+done
+}
+makeustBaklava $1
+makealtBaklava $1

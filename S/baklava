@@ -1,37 +1,11 @@
 #!/bin/bash
 n=10
-for((i=1;i<=n;i++))
-  do
-      for((k=i;k<=n;k++))
-      do
-        echo -ne " ";
-      done
-      for((j=1;j<=i;j++))
-      do
-      echo -ne "*";
-      done
-      for((z=1;z<i;z++))
-      do
-      echo -ne "*";
-      done
-      echo;
-  done
-for((i = $n; -1 < i; i--))
-do
-	for((k=i;k<=n;k++))
-	do
-		echo -ne " ";
-	done
-
-	for((j=1;j<=i;j++))
-	do
-		echo -ne "*";
-	done
-
-	for((z=1;z<i;z++))     
-	do
-		echo -ne "*";
-    done
-      
-      echo;
-done
+drawBaklava ()
+{
+	for((k=i;k<=n;k++));do echo -ne " ";done
+	for((j=1;j<=i;j++));do echo -ne "*";done
+	for((z=1;z<i;z++));do echo -ne "*";done
+	echo;
+}
+for((i=1;i<=n;i++));do drawBaklava;done
+for((i = $n; -1 < i; i--));do drawBaklava;done

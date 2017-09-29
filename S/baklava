@@ -1,4 +1,5 @@
 #!/bin/bash
+# Havuç dilim by github.com/BTaskaya 
 makeustBaklava()
 {
   n=$1;
@@ -20,7 +21,7 @@ makeustBaklava()
       do
       echo -ne "*";
       done
-      
+ 
       echo;
   done
 }
@@ -47,5 +48,7 @@ do
       echo;
 done
 }
+# Baklava Üstü
 makeustBaklava $1
+# Baklava Altı
 makealtBaklava $1

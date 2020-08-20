@@ -10,6 +10,7 @@ Make sure to see CONTRIBUTING.md for instructions on contributing to the project
 ## Index
 * [Bash](B/Bash.sh)
 * [C](C/C.c)
+* [C++](C/Cpp.cpp)
 * [C#](C/CSharp.cs)
 * [Crystal](C/Crystal.cr)
 * [D](D/D.d)

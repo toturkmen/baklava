@@ -22,6 +22,7 @@ Make sure to see CONTRIBUTING.md for instructions on contributing to the project
 * [PHP](P/PHP.php)
 * [Python](P/Python.py)
 * [Ruby](R/Ruby.rb)
+* [SPWN](S/SPWN.spwn)
 * [TypeScript](T/TypeScript.ts)
 
 ## Thanks

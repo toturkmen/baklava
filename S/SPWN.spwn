@@ -1,0 +1,7 @@
+size = 10
+for i in 0..(size*2+1) {
+    $.print(match i {
+        <size: " " * (size-i) + "*" * (i*2+1)
+        else: " " * (i-size) + "*" * (4*size-2*i+1)
+    })
+}

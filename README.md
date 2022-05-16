@@ -18,6 +18,7 @@ Make sure to see CONTRIBUTING.md for instructions on contributing to the project
 * [Go](G/Go.go)
 * [JavaScript](J/JavaScript.js)
 * [Kotlin](K/Kotlin.kt)
+* [Lua](L/LUA.lua)
 * [Node.js](N/Node.js)
 * [PHP](P/PHP.php)
 * [Python](P/Python.py)
